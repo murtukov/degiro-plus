@@ -1,0 +1,192 @@
+span[data-name="productName"] {
+    display: flex;
+    align-items: center;
+}
+
+span[data-name="productName"]::before {
+    content: '';
+    background-size: var(--icon-size);
+    /*background-color: var(--gray4);*/
+    display: inline-block;
+    height: var(--icon-size);
+    width: var(--icon-size);
+    min-width: var(--icon-size);
+    border-radius: 5px;
+    margin-block: 5px;
+    margin-right: 8px;
+}
+
+/* Netflix */
+span[data-name="productName"][title*="Netflix" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/netflix.svg');
+}
+
+/* Johnson & Johnson */
+span[data-name="productName"][title*="Johnson & Johnson" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/johnson-and-johnson.svg');
+}
+
+/* Realty Income */
+span[data-name="productName"][title*="Realty Income" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/realty-income.svg');
+}
+
+/* Conocophillips */
+span[data-name="productName"][title*="Conocophillips" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/conocophillips.svg');
+}
+
+/* Ares Capital */
+span[data-name="productName"][title*="Ares Capital" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/ares-capital.svg');
+}
+
+/* Ares Management */
+span[data-name="productName"][title*="Ares Management" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/ares-management.svg');
+}
+
+/* AGNC Investment */
+span[data-name="productName"][title*="AGNC Investment" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/agnc-investment.svg') !important;
+}
+
+/* iShares */
+span[data-name="productName"][title*="iShares" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/SXR8d_EQ.png');
+}
+
+/* ARMOUR Residential */
+span[data-name="productName"][title*="ARMOUR Residential" i]::before {
+    background-image: url('https://i.ibb.co/hfZcLmw/ARR.webp');
+}
+
+/* Alto Ingredients */
+span[data-name="productName"][title*="Alto Ingredients" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/PEIX_US_EQ.png');
+}
+
+/* EPR Properties */
+span[data-name="productName"][title*="EPR Properties" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/EPR_US_EQ.png');
+}
+
+/* Barings BDC */
+span[data-name="productName"][title*="Barings BDC" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/BBDC_US_EQ.png');
+}
+
+/* Main Street Capital */
+span[data-name="productName"][title*="Main Street Capital" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/main-street-capital-corporation.svg');
+}
+
+/* STAG Industrial */
+span[data-name="productName"][title*="STAG Industrial" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/STAG_US_EQ.png');
+}
+
+/* Constellation Software */
+span[data-name="productName"][title*="Constellation Software" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/constellation-software.svg');
+}
+
+/* Gladstone */
+span[data-name="productName"][title*="Gladstone" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/GOOD_US_EQ.png');
+}
+
+/* Petroleo Brasileiro */
+span[data-name="productName"][title*="Petrobras" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/brasileiro-petrobras.svg');
+}
+
+/* Coca-Cola */
+span[data-name="productName"][title*="Coca-Cola" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/KO_US_EQ.png');
+}
+
+/* Coca-Cola Femsa */
+span[data-name="productName"][title*="Coca-Cola Femsa" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/KOF_US_EQ.png');
+}
+
+/* Tesla */
+span[data-name="productName"][title*="Tesla" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/tesla.svg');
+}
+
+/* ING Groep */
+span[data-name="productName"][title*="ING Groep" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/ing.svg');
+}
+
+/* ASML Holding */
+span[data-name="productName"][title*="ASML Holding" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/ASMLa_EQ.png');
+}
+
+/* Apple Inc */
+span[data-name="productName"][title*="Apple Inc" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/apple.svg');
+}
+
+/* AXA */
+span[data-name="productName"][title*="AXA " i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/CSp_EQ.png');
+}
+
+/* TotalEnergies */
+span[data-name="productName"][title*="TotalEnergies" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/total.svg');
+}
+
+/* SPDR */
+span[data-name="productName"][title*="SPDR" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/ZPRGd_EQ.png');
+}
+
+/* LTC Properties */
+span[data-name="productName"][title*="LTC Properties" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/LTC_US_EQ.png');
+}
+
+/* Equinix Inc */
+span[data-name="productName"][title*="Equinix Inc" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/equinix.svg');
+}
+
+/* Equinix Inc */
+span[data-name="productName"][title*="Banca Generali" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/banca-generali.svg');
+}
+
+/* Blackrock Inc */
+span[data-name="productName"][title*="Blackrock" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/blackrock.svg');
+}
+
+/* Amazon */
+span[data-name="productName"][title*="Amazon" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/amazon.svg');
+}
+
+/* Alphabet / Google */
+span[data-name="productName"][title*="Alphabet Inc" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/alphabet.svg');
+}
+
+/* Meta Platforms */
+span[data-name="productName"][title*="Meta Platforms" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/meta-platforms.svg');
+}
+
+/* Annaly */
+span[data-name="productName"][title*="Annaly" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/annaly-capital-management.svg');
+}
+
+/* Unitedhealth */
+span[data-name="productName"][title*="Unitedhealth" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/unitedhealth.svg');
+}

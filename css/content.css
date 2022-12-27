@@ -1,0 +1,147 @@
+[data-app-theme="dark"] body {
+    --icon-size: 32px;
+
+    /* Colors */
+    --gray: #494e5c;
+    --gray2: #363945;
+    --gray3: #2e313b;
+    --gray4: #23252d;
+    --red: #fa6464;
+    --green: #1bc47d;
+    --blue: #69c0e2;
+
+    /* General */
+    --paper-color: var(--gray2);
+    --brand-card-color: --paper-color;
+    --navigation-bg-color: var(--gray2);
+    --navigation-item-color: #FEFEFE;
+    --avatar-bg-color: var(--navigation-item-color);
+    --outlined-border: 1px solid var(--gray);
+    --full-header-bg-color: var(--gray2);
+    --cards-grid-bg-color: var(--gray4);
+    --border1-color: var(--gray);
+    --hovered-item1-color: rgba(153, 164, 194, .13);
+    --brand200-color: var(--blue);
+    --analyst-rating-bg-color: var(--gray3);
+    --striped-item1-color: var(--gray3);
+    --period-navigation-bg-color: var(--gray3);
+
+    /* Portfolio panel */
+    --ink-color: #e0e8fe;
+    --ink100-color: var(--gray3);
+    --ink400-color: var(--gray3);
+
+    /* Font */
+    --negative-value-color: var(--red);
+    --sell1-color: var(--red);
+    --body-text-color: rgb(224, 232, 255);
+    --secondary-content-color: #a4a9ba;
+    --base-font-family: "Open Sans";
+    --positive-value-color: var(--green);
+    --white-color: white;
+    /*--regular-font-size: 15px;*/
+
+    /* Inputs */
+    --input-field-bg-color: var(--gray3);
+    --input-field-focused-bg-color: --input-field-bg-color;
+    --outlined-control-bg-color: --input-field-bg-color;
+    --control-bg-color: var(--gray3);
+    --ink200-color: var(--gray3);
+    --selected-item1-color: var(--gray3);
+    --dropdown-bg-color: var(--gray3);
+    --checkbox-bg-color: initial;
+    --toggle-thumb-bg-color: #a4a9ba;
+    --toggle-track-bg-color: var(--gray3);
+
+    /* Hover tooltip question marc icon */
+    --ink500-color: #717991;
+
+    /* Text ellipsis gradient*/
+    --light-shadowed-wrapper-bg-from-color: var(--gray2);
+    --light-shadowed-wrapper-bg-to-color: transparent;
+
+    /* Wrapper gradient */
+    --dark-shadowed-wrapper-bg-from-color: var(--gray3);
+    --dark-shadowed-wrapper-bg-to-color: var(--gray3);
+}
+
+#mainContent {
+    background: var(--cards-grid-bg-color);
+}
+
+#mainContent tr:hover td {
+    background-color: #444856 !important;
+}
+
+/* Chart */
+.highcharts-series-0 path {
+    stroke-width: 1;
+}
+
+.highcharts-series-0 path:first-child {
+    fill: #009fe314;
+}
+
+.highcharts-tooltip > text > {
+    transform: translate(0, 0) !important;
+    opacity: 1;
+}
+
+button[data-name="tooltipButton"] {
+    margin-left: 3px;
+}
+
+button[disabled] {
+    background: #2e313b;
+}
+
+table td {
+    --ink-color: transparent;
+}
+
+[data-name="corporateActions"] table span[data-positive] {
+    color: var(--positive-value-color);
+}
+
+[data-name="corporateActions"] table span[data-negative] {
+    color: var(--negative-value-color);
+}
+
+svg [fill="#FF0000"],
+svg [stroke="#FF0000"] {
+    fill: var(--red);
+    stroke: var(--red);
+}
+
+li:last-of-type {
+    border-bottom: none;
+}
+
+[data-name="productName"] {
+    font-weight: bold;
+}
+
+hr {
+    border-color: transparent;
+    border-top-color: var(--border1-color);
+}
+
+[data-name="analystConsensus"] {
+    --ink300-color: #ffeb3b;
+}
+
+[data-name="analystConsensus"] svg line {
+    --ink300-color: #1f2532;
+}
+
+/* CareCloud */
+span[data-name="productName"][data-id="19271519"]::before {
+    content: 'C';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
