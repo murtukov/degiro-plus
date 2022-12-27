@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "DEGIRO Dark Theme",
-  "description": "Enhance dark theme coloring",
+  "name": "DEGIRO Plus",
+  "description": "Enhance facilities of the Degiro Trader with additional features",
   "version": "1.0",
   "action": {
     "default_popup": "popup.html",
@@ -9,11 +9,22 @@
   },
   "content_scripts": [
     {
-      "js": ["content.js"],
+      "js": [
+        "tv.js",
+        "content.js"
+      ],
       "css": [
         "css/content.css",
         "css/stock-logos.css"
       ],
+      "matches": [
+        "https://trader.degiro.nl/*"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [ "tv.js" ],
       "matches": [
         "https://trader.degiro.nl/*"
       ]
