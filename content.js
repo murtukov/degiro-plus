@@ -47,63 +47,38 @@ window.addEventListener('hashchange', () => {
 function createWidget() {
     new TradingView.MediumWidget(
       {
-        "symbols": [
+        symbols: [
           [
             "Netflix",
             `${getOverviewExchange()}:${getOverviewTicker()}|1D`
           ]
         ],
-        "chartOnly": false,
-        "width": "100%",
-        "height": 450,
-        "locale": "en",
-        "colorTheme": "dark",
-        "autosize": true,
-        "showVolume": false,
-        "hideDateRanges": false,
-        "hideMarketStatus": false,
-        "scalePosition": "right",
-        "scaleMode": "Normal",
-        "fontFamily": "Open Sans",
-        fontSize: "10",
+        chartOnly: false,
+        width: "100%",
+        height: 450,
+        locale: "en",
+        colorTheme: "dark",
+        autosize: true,
+        showVolume: false,
+        hideDateRanges: false,
+        hideMarketStatus: false,
+        scalePosition: "right",
+        scaleMode: "Normal",
+        fontFamily: "Open Sans",
+        fontSize: "14",
         noTimeScale: false,
-        valuesTracking: "1",
         chartType: "line",
         lineWidth: 1,
+        valuesTracking: "3",
         backgroundColor: "#23252d",
         widgetFontColor: "rgb(224, 232, 255)",
-        "container_id": "highcharts"
+        container_id: "highcharts"
       },
-      // {
-      //   "symbols": [
-      //     [
-      //       "Netflix",
-      //       `${getOverviewExchange()}:${getOverviewTicker()}|1D`
-      //     ]
-      //   ],
-      //   "chartOnly": false,
-      //   // "width": 1000,
-      //   // "height": 500,
-      //   "locale": "en",
-      //   "colorTheme": "dark",
-      //   "autosize": true,
-      //   "showVolume": false,
-      //   "hideDateRanges": false,
-      //   "hideMarketStatus": false,
-      //   "scalePosition": "right",
-      //   "scaleMode": "Normal",
-      //   "fontFamily": "Open Sans",
-      //   "fontSize": "10",
-      //   "noTimeScale": false,
-      //   "valuesTracking": "1",
-      //   "chartType": "line",
-      //   "container_id": "highcharts"
-      // }
     );
 }
 
 function getOverviewExchange() {
-  const info = document.querySelector('[data-name="productBriefInfo"]');
+  const info = document.querySelector('[data-name="productDetails"] [data-name="productBriefInfo"]');
   const exchange = info.innerText.split('|')[0].trim();
 
   switch (exchange) {
@@ -112,10 +87,11 @@ function getOverviewExchange() {
     case 'TOR': return "TSX";
     case 'XET': return "XETR";
     case 'NSY': return "NYSE";
+    case 'ASX': return "ASX";
   }
 }
 
 function getOverviewTicker() {
-  const info = document.querySelector('[data-name="productBriefInfo"]');
+  const info = document.querySelector('[data-name="productDetails"] [data-name="productBriefInfo"]');
   return info.innerText.split('|')[1].trim();
 }
