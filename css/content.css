@@ -134,14 +134,3 @@ hr {
     --ink300-color: #1f2532;
 }
 
-/* CareCloud */
-span[data-name="productName"][data-id="19271519"]::before {
-    content: 'C';
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 18px;
-    font-weight: lighter;
-}
-

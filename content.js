@@ -18,10 +18,23 @@ window.addEventListener('hashchange', () => {
       const button = document.createElement('button');
       button.innerText = 'TradingView';
 
+      const highcharts = section.querySelector('section');
+      highcharts.setAttribute('id', 'highcharts');
+
+      const tvContainer = document.createElement('div');
+      tvContainer.setAttribute('id', 'tvContainer');
+      tvContainer.style.cssText = `
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          display: none;
+      `;
+
+      highcharts.appendChild(tvContainer);
+      createWidget();
+
       button.addEventListener('click', () => {
-        const highcharts = section.querySelector('section');
-        highcharts.setAttribute('id', 'highcharts');
-        createWidget();
+        tvContainer.style.display = 'block';
       });
 
       const header = section.querySelector('header');
@@ -72,7 +85,7 @@ function createWidget() {
         valuesTracking: "3",
         backgroundColor: "#23252d",
         widgetFontColor: "rgb(224, 232, 255)",
-        container_id: "highcharts"
+        container_id: "tvContainer"
       },
     );
 }
@@ -88,6 +101,7 @@ function getOverviewExchange() {
     case 'XET': return "XETR";
     case 'NSY': return "NYSE";
     case 'ASX': return "ASX";
+    case 'FRA': return "FWB";
   }
 }
 

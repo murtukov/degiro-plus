@@ -16,6 +16,17 @@ span[data-name="productName"]::before {
     margin-right: 8px;
 }
 
+/* CareCloud */
+span[data-name="productName"][data-id="19271519"]::before {
+    content: 'CC';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
 /* Netflix */
 span[data-name="productName"][title*="Netflix" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/netflix.svg');
@@ -43,6 +54,11 @@ span[data-name="productName"][title*="Ares Capital" i]::before {
 
 /* Ares Management */
 span[data-name="productName"][title*="Ares Management" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/ares-management.svg');
+}
+
+/* Ares Commercial */
+span[data-name="productName"][title*="Ares Commercial" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/ares-management.svg');
 }
 
@@ -189,4 +205,34 @@ span[data-name="productName"][title*="Annaly" i]::before {
 /* Unitedhealth */
 span[data-name="productName"][title*="Unitedhealth" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/unitedhealth.svg');
+}
+
+/* PayPal */
+span[data-name="productName"][title*="PayPal" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/paypal.svg');
+}
+
+/* Marathon Petroleum */
+span[data-name="productName"][title*="Marathon Petroleum" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/marathon-petroleum.svg');
+}
+
+/* Modine Manufacturing */
+span[data-name="productName"][title*="Modine Manufacturing" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/modine-manufacturing.svg');
+}
+
+/* Starwood Property */
+span[data-name="productName"][title*="Starwood Property" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/starwood-property-trust.svg');
+}
+
+/* VICI Properties */
+span[data-name="productName"][title*="VICI Properties" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/vici-properties.svg');
+}
+
+/* Walt Disney */
+span[data-name="productName"][title*="Walt Disney" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/walt-disney.svg');
 }
