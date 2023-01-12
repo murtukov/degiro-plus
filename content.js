@@ -95,13 +95,27 @@ function getOverviewExchange() {
   const exchange = info.innerText.split('|')[0].trim();
 
   switch (exchange) {
-    case 'TDG': return "TRADEGATE";
+    case 'ASX': return "ASX";     // Australia
+    case 'ATH': return "ATHEX";   // Greece (Athens)
+    case 'FRA': return "FWB";     // Germany (Frankfurt)
+    case 'HSE': return "OMXHEX";  // Finnland (Helsinki)
+    case 'HKS': return "HKEX";    // Hong-Kong
+    case 'LSE': return "LSE";     // London Stock Exchange
+    case 'MAD': return "BME";
+    case 'MIL': return "MIL";
     case 'NDQ': return "NASDAQ";
-    case 'TOR': return "TSX";
-    case 'XET': return "XETR";
     case 'NSY': return "NYSE";
-    case 'ASX': return "ASX";
-    case 'FRA': return "FWB";
+    case 'OMK': return "OMXCOP";
+    case 'OSL': return "OSL";
+    case 'TDG': return "TRADEGATE";
+    case 'TOR': return "TSX";
+    case 'TSE': return "TSE";
+    case 'XET': return "XETR";
+    case 'WSE': return "GPW";
+    case 'EBR':
+    case 'EPA':
+    case 'ELI':
+    case 'EAM': return "EURONEXT";
   }
 }
 
