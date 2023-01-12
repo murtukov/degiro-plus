@@ -307,6 +307,11 @@ span[data-name="productName"][title*="Merck & Co" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/merck-and-co.svg');
 }
 
+/* Merck KGaA */
+span[data-name="productName"][title*="Merck KGaA" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/merck-kgaa.svg');
+}
+
 /* Strabag SE */
 span[data-name="productName"][title*="Strabag" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/strabag-se.svg');
