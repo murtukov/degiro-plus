@@ -371,3 +371,213 @@ span[data-name="productName"][title*="Verizon" i]::before {
 span[data-name="productName"][title*="PepsiCo" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/pepsico.svg');
 }
+
+/* Vanguard */
+span[data-name="productName"][title*="Vanguard" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/vanguard.svg');
+}
+
+/* Global X */
+span[data-name="productName"][title*="Global X" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/global-x.svg');
+}
+
+/* Lyxor */
+span[data-name="productName"][title*="Lyxor" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/lyxor.svg');
+}
+
+/* Xtrackers */
+span[data-name="productName"][title*="Xtrackers" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/xtrackers.svg');
+}
+
+/* Xtrackers */
+span[data-name="productName"][title*="X FTSE 100" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/xtrackers.svg');
+}
+
+/* BYD Co */
+span[data-name="productName"][title*="BYD Co" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/byd-electronic.svg');
+}
+
+/* Advanced Micro Devices */
+span[data-name="productName"][title*="Advanced Micro Devices" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/advanced-micro-devices.svg');
+}
+
+/* Albemarle */
+span[data-name="productName"][title*="Albemarle" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/albemarle.svg');
+}
+
+/* Analog Devices */
+span[data-name="productName"][title*="Analog Devices" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/analog-devices.svg');
+}
+
+/* Ascendas */
+span[data-name="productName"][title*="Ascendas" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/ascendas-reit.svg');
+}
+
+/* Bradesco */
+span[data-name="productName"][title*="Bradesco" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/bradesco.svg');
+}
+
+/* Bank of Nova Scotia */
+span[data-name="productName"][title*="Bank of Nova Scotia" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/bank-of-nova-scotia.svg');
+}
+
+/* BioNTech */
+span[data-name="productName"][title*="BioNTech" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/biontech.svg');
+}
+
+/* Canadian Imperial Bank */
+span[data-name="productName"][title*="Canadian Imperial Bank" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/canadian-imperial-bank-of-commerce.svg');
+}
+
+/* Capitaland Investment */
+span[data-name="productName"][title*="Capitaland Invest" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/capitalandinvest.svg');
+}
+
+/* Costco */
+span[data-name="productName"][title*="Costco" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/costco-wholesale.svg');
+}
+
+/* DBS Group */
+span[data-name="productName"][title*="DBS" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/dbs.svg');
+}
+
+/* Deutsche Post */
+span[data-name="productName"][title*="Deutsche Post" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/deutsche-post-ag.svg');
+}
+
+/* Diana Shipping */
+span[data-name="productName"][title*="Diana Shipping" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/diana-shipping.svg');
+}
+
+/* Dow Inc */
+span[data-name="productName"][title*="Dow Inc" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/dow.svg');
+}
+
+/* Eli Lilly */
+span[data-name="productName"][title*="Eli Lilly" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/eli-lilly.svg');
+}
+
+/* Gerdau S.A. */
+span[data-name="productName"][title*="Gerdau" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/gerdau.svg');
+}
+
+/* Humana Inc */
+span[data-name="productName"][title*="Humana Inc" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/humana.svg');
+}
+
+/* Innovative Industrial Properties Inc */
+span[data-name="productName"][title*="Innovative Industrial Properties" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/innovative-industrial-properties.svg');
+}
+
+/* Keyera Corp */
+span[data-name="productName"][title*="Keyera Corp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/keyera.svg');
+}
+
+/* Kinder Morgan */
+span[data-name="productName"][title*="Kinder Morgan" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/kinder-morgan.svg');
+}
+
+/* National Australia Bank */
+span[data-name="productName"][title*="National Australia Bank" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/national-australia-bank.svg');
+}
+
+/* Natwest Group */
+span[data-name="productName"][title*="Natwest Group" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/natwest-group.svg');
+}
+
+/* Novartis */
+span[data-name="productName"][title*="Novartis" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/novartis.svg');
+}
+
+/* Perpetual Ltd */
+span[data-name="productName"][title*="Perpetual Ltd" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/perpetual-limited.svg');
+}
+
+/* Philip Morris */
+span[data-name="productName"][title*="Philip Morris" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/philip-morris.svg');
+}
+
+/* Rolls Royce */
+span[data-name="productName"][title*="Rolls-Royce" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/rolls-royce.svg');
+}
+
+/* Siemens */
+span[data-name="productName"][title*="Siemens" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/siemens.svg');
+}
+
+/* Sociedad Quimica y Minera de Chile SA */
+span[data-name="productName"][title*="Sociedad Quimica" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/sqm.svg');
+}
+
+/* Sony */
+span[data-name="productName"][title*="Sony" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/sony.svg');
+}
+
+/* Spotify */
+span[data-name="productName"][title*="Spotify" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/spotify-technology.svg');
+}
+
+/* Travelcenters */
+span[data-name="productName"][title*="Travelcenters" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/travelcenters-of-america.svg');
+}
+
+/* Valero Energy */
+span[data-name="productName"][title*="Valero Energy" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/valero-energy.svg');
+}
+
+/* Vonovia */
+span[data-name="productName"][title*="Vonovia" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/vonovia.svg');
+}
+
+/* Warner Bros */
+span[data-name="productName"][title*="Warner Bros" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/warner-bros-discovery.svg');
+}
+
+/* Wells Fargo */
+span[data-name="productName"][title*="Wells Fargo" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/wells-fargo.svg');
+}
+
+/* WP Carey */
+span[data-name="productName"][title*="WP Carey" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/w-p-carey.svg');
+}
