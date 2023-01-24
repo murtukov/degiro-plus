@@ -581,3 +581,13 @@ span[data-name="productName"][title*="Wells Fargo" i]::before {
 span[data-name="productName"][title*="WP Carey" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/w-p-carey.svg');
 }
+
+/* Simon Property Group Inc */
+span[data-name="productName"][title*="Simon Prop" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/simon-property.svg');
+}
+
+/* Apple Hospitality */
+span[data-name="productName"][title*="Apple Hospitality" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/APLE_US_EQ.png');
+}
