@@ -36,7 +36,7 @@
     --sell1-color: var(--red);
     --body-text-color: rgb(224, 232, 255);
     --secondary-content-color: #a4a9ba;
-    --base-font-family: "Open Sans";
+    --base-font-family: "Open Sans", sans-serif;
     --positive-value-color: var(--green);
     --white-color: white;
     /*--regular-font-size: 15px;*/

@@ -591,3 +591,58 @@ span[data-name="productName"][title*="Simon Prop" i]::before {
 span[data-name="productName"][title*="Apple Hospitality" i]::before {
     background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/APLE_US_EQ.png');
 }
+
+/* Omega Healthcare Investors */
+span[data-name="productName"][title*="Omega Healthcare" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/OHI_US_EQ.png');
+}
+
+/* Digital Realty Trust */
+span[data-name="productName"][title*="Digital Realty Trust" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/DLR_US_EQ.png');
+}
+
+/* Jackson Financial Inc */
+span[data-name="productName"][title*="Jackson Financial" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/jackson-financial.svg');
+}
+
+/* National Retail Properties */
+span[data-name="productName"][title*="National Retail Prop" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/NNN_US_EQ.png');
+}
+
+/* Owl Rock Capital Corporation */
+span[data-name="productName"][title*="Owl Rock Capital" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/owl-rock-capital.svg');
+}
+
+/* SLR Investment */
+span[data-name="productName"][title*="SLR Investment" i]::before {
+    background-image: url('https://companiesmarketcap.com/img/company-logos/64/SLRC.png');
+}
+
+/* Medical Properties */
+span[data-name="productName"][title*="Medical Properties" i]::before {
+    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/MPW_US_EQ.png');
+}
+
+/* Assertio Holdings */
+span[data-name="productName"][title*="Assertio Holdings" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/assertio.svg');
+}
+
+/* British American Tobacco */
+span[data-name="productName"][title*="British American Tobacco" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/british-american-tobacco.svg');
+}
+
+/* Terex Corp */
+span[data-name="productName"][title*="Terex Corp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/terex.svg');
+}
+
+/* United Rentals */
+span[data-name="productName"][title*="United Rentals" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/united-rentals.svg');
+}
