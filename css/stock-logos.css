@@ -831,3 +831,8 @@ span[data-name="productName"][title*="Bristol Myers Squibb" i]::before {
 span[data-name="productName"][title*="CVS Health Corp" i]::before {
     background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/CVS_65x65@2x.png');
 }
+
+/* Piedmont Office Realty Trust */
+span[data-name="productName"][title*="Piedmont Office Realty Trust" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/PDM_65x65@2x.png');
+}
