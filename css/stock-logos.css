@@ -74,7 +74,7 @@ span[data-name="productName"][title*="iShares" i]::before {
 
 /* ARMOUR Residential */
 span[data-name="productName"][title*="ARMOUR Residential" i]::before {
-    background-image: url('https://i.ibb.co/hfZcLmw/ARR.webp');
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/ARR_65x65@2x.png');
 }
 
 /* Alto Ingredients */
@@ -594,7 +594,7 @@ span[data-name="productName"][title*="Apple Hospitality" i]::before {
 
 /* Omega Healthcare Investors */
 span[data-name="productName"][title*="Omega Healthcare" i]::before {
-    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/OHI_US_EQ.png');
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/OHI_65x65@2x.png');
 }
 
 /* Digital Realty Trust */
@@ -609,7 +609,7 @@ span[data-name="productName"][title*="Jackson Financial" i]::before {
 
 /* National Retail Properties */
 span[data-name="productName"][title*="National Retail Prop" i]::before {
-    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/NNN_US_EQ.png');
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/NNN_65x65@2x.png');
 }
 
 /* Owl Rock Capital Corporation */
@@ -619,12 +619,12 @@ span[data-name="productName"][title*="Owl Rock Capital" i]::before {
 
 /* SLR Investment */
 span[data-name="productName"][title*="SLR Investment" i]::before {
-    background-image: url('https://companiesmarketcap.com/img/company-logos/64/SLRC.png');
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/SLRC_65x65@2x.png');
 }
 
 /* Medical Properties */
 span[data-name="productName"][title*="Medical Properties" i]::before {
-    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/MPW_US_EQ.png');
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/MPW_65x65@2x.png');
 }
 
 /* Assertio Holdings */
@@ -645,4 +645,174 @@ span[data-name="productName"][title*="Terex Corp" i]::before {
 /* United Rentals */
 span[data-name="productName"][title*="United Rentals" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/united-rentals.svg');
+}
+
+/* Alexandria Real Estate Equities */
+span[data-name="productName"][title*="Alexandria Real Estate" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/alexandria-real-estate-equities.svg');
+}
+
+/* Rivian Automotive */
+span[data-name="productName"][title*="Rivian" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/rivian.svg');
+}
+
+/* Sun Communities */
+span[data-name="productName"][title*="Sun Communities" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/sun-communities.svg');
+}
+
+/* Mastercard */
+span[data-name="productName"][title*="Mastercard" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/mastercard.svg');
+}
+
+/* Essex Property Trust */
+span[data-name="productName"][title*="Essex Property Trust" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/ESS_65x65@2x.png');
+}
+
+/* AvalonBay Communities */
+span[data-name="productName"][title*="AvalonBay Communities" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/AVB_65x65@2x.png');
+}
+
+/* T-Mobile */
+span[data-name="productName"][title*="T-Mobile" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/t-mobile.svg');
+}
+
+/* Oaktree Specialty Lending */
+span[data-name="productName"][title*="Oaktree Specialty Lending" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/OCSL_65x65@2x.png');
+}
+
+/* Essential Properties Realty Trust */
+span[data-name="productName"][title*="Essential Properties Realty Trust" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/EPRT_65x65@2x.png');
+}
+
+/* Ladder Capital Corp */
+span[data-name="productName"][title*="Ladder Capital Corp" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/LADR_65x65@2x.png');
+}
+
+/* Nvidia */
+span[data-name="productName"][title*="Nvidia" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/nvidia.svg');
+}
+
+/* Boston Properties */
+span[data-name="productName"][title*="Boston Properties" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/boston-prop-drn.svg');
+}
+
+/* Kilroy Realty Corp */
+span[data-name="productName"][title*="Kilroy Realty Corp" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/KRC_65x65@2x.png');
+}
+
+/* Berkshire Hathaway */
+span[data-name="productName"][title*="Berkshire Hathaway" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/berkshire-hathaway.svg');
+}
+
+/* Oracle Corporation */
+span[data-name="productName"][title*="Oracle Corp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/oracle.svg');
+}
+
+/* Broadcom */
+span[data-name="productName"][title*="Broadcom" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/broadcom.svg');
+}
+
+/* Cisco */
+span[data-name="productName"][title*="Cisco Systems" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/cisco.svg');
+}
+
+/* Danaher Corp */
+span[data-name="productName"][title*="Danaher Corp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/danaher.svg');
+}
+
+/* Li Auto */
+span[data-name="productName"][title*="Li Auto" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/li.svg');
+}
+
+/* Polestar Automotive */
+span[data-name="productName"][title*="Polestar Automotive" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/polestar-automotive-holding.svg');
+}
+
+/* Nio */
+span[data-name="productName"][title*="Nio Inc" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/nio.svg');
+}
+
+/* Xpeng */
+span[data-name="productName"][title*="Xpeng" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/xpeng.svg');
+}
+
+/* Lucid Group */
+span[data-name="productName"][title*="Lucid Group" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/lucid-group.svg');
+}
+
+/* Fisker */
+span[data-name="productName"][title*="Fisker Inc" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/fisker.svg');
+}
+
+/* Nikola */
+span[data-name="productName"][title*="Nikola Corp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/nikolamotor.svg');
+}
+
+/* Proterra */
+span[data-name="productName"][title*="Proterra Inc" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/proterra.svg');
+}
+
+/* Visa */
+span[data-name="productName"][title*="Visa Inc" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/visa.svg');
+}
+
+/* Public Storage */
+span[data-name="productName"][title*="Public Storage" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/PSA_65x65@2x.png');
+}
+
+/* Goodman Group */
+span[data-name="productName"][title*="Goodman Group" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/goodman.svg');
+}
+
+/* Extra Space Storage */
+span[data-name="productName"][title*="Extra Space Storage" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/EXR_65x65@2x.png');
+}
+
+/* Kimco Realty Corp */
+span[data-name="productName"][title*="Kimco Realty Corp" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/KIM_65x65@2x.png');
+}
+
+/* Rexford Industrial Realty */
+span[data-name="productName"][title*="Rexford Industrial Realty" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/REXR_65x65@2x.png');
+}
+
+/* Regency Centers Corp */
+span[data-name="productName"][title*="Regency Centers Corp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/regency-centers.svg');
+}
+
+/* Life Storage Inc */
+span[data-name="productName"][title*="Life Storage" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/LSI_65x65@2x.png');
 }
