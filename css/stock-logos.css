@@ -816,3 +816,18 @@ span[data-name="productName"][title*="Regency Centers Corp" i]::before {
 span[data-name="productName"][title*="Life Storage" i]::before {
     background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/LSI_65x65@2x.png');
 }
+
+/* Bayer */
+span[data-name="productName"][title*="Bayer AG" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/bayer.svg');
+}
+
+/* Bristol Myers Squibb */
+span[data-name="productName"][title*="Bristol Myers Squibb" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/bristol-myers-squibb.svg');
+}
+
+/* CVS Health Corp */
+span[data-name="productName"][title*="CVS Health Corp" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/CVS_65x65@2x.png');
+}
