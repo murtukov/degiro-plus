@@ -164,7 +164,7 @@ span[data-name="productName"][title*="SPDR" i]::before {
 
 /* LTC Properties */
 span[data-name="productName"][title*="LTC Properties" i]::before {
-    background-image: url('https://trading212equities.s3.eu-central-1.amazonaws.com/LTC_US_EQ.png');
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/LTC_65x65@2x.png');
 }
 
 /* Equinix Inc */
@@ -835,4 +835,225 @@ span[data-name="productName"][title*="CVS Health Corp" i]::before {
 /* Piedmont Office Realty Trust */
 span[data-name="productName"][title*="Piedmont Office Realty Trust" i]::before {
     background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/PDM_65x65@2x.png');
+}
+
+/* Sachem Capital Corp */
+span[data-name="productName"][title*="Sachem Capital Corp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/sachem-capital.svg');
+}
+
+/* Arbor Realty Trust */
+span[data-name="productName"][title*="Arbor Realty Trust" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/ABR_65x65@2x.png');
+}
+
+/* Crown Castle */
+span[data-name="productName"][title*="Crown Castle" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/crown-castle-international.svg');
+}
+
+/* Glencore PLC */
+span[data-name="productName"][title*="Glencore PLC" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/glencore.svg');
+}
+
+/* Hexaom SA */
+span[data-name="productName"][title*="Hexaom" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/hexaom.svg');
+}
+
+/* Walgreens Boots Alliance */
+span[data-name="productName"][title*="Walgreens Boots Alliance" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/walgreens-boots-alliance.svg');
+}
+
+/* V.F. Corp */
+span[data-name="productName"][title*="V.F. Corp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/v-f.svg');
+}
+
+/* Newtek Business Services Corp */
+span[data-name="productName"][title*="Newtek Business Services" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/newtek-business-services.svg');
+}
+
+/* Outfront Media */
+span[data-name="productName"][title*="Outfront Media" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/OUT_65x65@2x.png');
+}
+
+/* Rio Tinto */
+span[data-name="productName"][title*="Rio Tinto" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/rio-tinto.svg');
+}
+
+/* Spirit Realty Capital */
+span[data-name="productName"][title*="Spirit Realty Capital" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/SRC_65x65@2x.png');
+}
+
+/* IBM */
+span[data-name="productName"][title*="IBM" i]::before,
+span[data-name="productName"][title*="International Business Machines" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/international-bus-mach.svg');
+}
+
+/* Agree Realty Corp */
+span[data-name="productName"][title*="Agree Realty Corp" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/ADC_65x65@2x.png');
+}
+
+/* SL Green Realty Corp */
+span[data-name="productName"][title*="SL Green Realty" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/SLG_65x65@2x.png');
+}
+
+/* Apollo Commercial */
+span[data-name="productName"][title*="SL Green Realty" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/ARI_65x65@2x.png');
+}
+
+/* Bilfinger SE */
+span[data-name="productName"][title*="Bilfinger" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/bilfinger-se.svg');
+}
+
+/* Nucor Corp */
+span[data-name="productName"][title*="Nucor Corp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/nucor.svg');
+}
+
+/* Suncor Energy */
+span[data-name="productName"][title*="Suncor Energy" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/suncor-energy.svg');
+}
+
+/* M/I Homes */
+span[data-name="productName"][title*="M/I Homes" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/m-i-homes.svg');
+}
+
+/* HF Sinclair */
+span[data-name="productName"][title*="HF Sinclair" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/DINO_65x65@2x.png');
+}
+
+/* Chevron Corp */
+span[data-name="productName"][title*="Chevron Corp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/chevron.svg');
+}
+
+/* Bluelinx Holdings */
+span[data-name="productName"][title*="Bluelinx Holdings" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/bluelinx.svg');
+}
+
+/* Ardmore Shipping Corp */
+span[data-name="productName"][title*="Ardmore Shipping" i]::before {
+    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/ASC_65x65@2x.png');
+}
+
+/* Arch Resources */
+span[data-name="productName"][title*="Arch Resources" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/arch-coal.svg');
+}
+
+/* Alpha Metallurgical Resources */
+span[data-name="productName"][title*="Alpha Metallurgical Resources" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/alpha-metallurgical-resources.svg');
+}
+
+/* Bank of Montreal */
+span[data-name="productName"][title*="Bank of Montreal" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/bank-of-montreal.svg');
+}
+
+/* BNP Paribas */
+span[data-name="productName"][title*="BNP Paribas" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/paribas.svg');
+}
+
+/* JP Morgan Chase */
+span[data-name="productName"][title*="JPMorgan Chase" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/jpmorgan-chase.svg');
+}
+
+/* Morgan Stanley */
+span[data-name="productName"][title*="Morgan Stanley" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/morgan-stanley.svg');
+}
+
+/* Royal Bank of Canada */
+span[data-name="productName"][title*="Royal Bank of Canada" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/royal-bank-of-canada.svg');
+}
+
+/* US Bancorp */
+span[data-name="productName"][title*="US Bancorp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/us-bancorp.svg');
+}
+
+/* Pfizer */
+span[data-name="productName"][title*="Pfizer" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/pfizer.svg');
+}
+
+/* Astra Space */
+span[data-name="productName"][title*="Astra Space" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/astra.svg');
+}
+
+/* Virgin Galactic */
+span[data-name="productName"][title*="Virgin Galactic" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/virgin-galactic.svg');
+}
+
+/* ACM Research */
+span[data-name="productName"][title*="ACM Research" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/acm-research.svg');
+}
+
+/* Boeing */
+span[data-name="productName"][title*="Boeing" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/boeing.svg');
+}
+
+/* Nextera Energy */
+span[data-name="productName"][title*="Nextera Energy" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/nextera-energy.svg');
+}
+
+/* IGM Financial */
+span[data-name="productName"][title*="Nextera Energy" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/igm-financial.svg');
+}
+
+/* VanEck */
+span[data-name="productName"][title*="VanEck" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/vaneck.svg');
+}
+
+/* Sword Group */
+span[data-name="productName"][title*="Sword Group" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/sword.svg');
+}
+
+/* Labrador Iron Ore Royalty */
+span[data-name="productName"][title*="Labrador Iron Ore Royalty" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/labrador-iron-ore-royalty-corporation.svg');
+}
+
+/* Harmonic Inc */
+span[data-name="productName"][title*="Harmonic Inc" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/harmonic.svg');
+}
+
+/* Mueller Industries */
+span[data-name="productName"][title*="Mueller Industries" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/mueller-industries.svg');
+}
+
+/* Piedmont Lithium */
+span[data-name="productName"][title*="Piedmont Lithium" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/piedmont-lithium.svg');
 }
