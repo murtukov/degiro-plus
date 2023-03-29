@@ -318,7 +318,8 @@ span[data-name="productName"][title*="Strabag" i]::before {
 }
 
 /* Super Micro Computer */
-span[data-name="productName"][title*="Super Micro Computer" i]::before {
+span[data-name="productName"][title*="Super Micro Computer" i]::before,
+span[data-name="productName"][title*="Supermicro Computer" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/super-micro-computer.svg');
 }
 
@@ -1024,7 +1025,7 @@ span[data-name="productName"][title*="Nextera Energy" i]::before {
 }
 
 /* IGM Financial */
-span[data-name="productName"][title*="Nextera Energy" i]::before {
+span[data-name="productName"][title*="IGM Financial" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/igm-financial.svg');
 }
 
@@ -1056,4 +1057,24 @@ span[data-name="productName"][title*="Mueller Industries" i]::before {
 /* Piedmont Lithium */
 span[data-name="productName"][title*="Piedmont Lithium" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/piedmont-lithium.svg');
+}
+
+/* Intesa Sanpaolo */
+span[data-name="productName"][title*="Intesa Sanpaolo" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/intesa.svg');
+}
+
+/* First Republic Bank */
+span[data-name="productName"][title*="First Republic Bank" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/first-republic-bank-san-francisco.svg');
+}
+
+/* Western Alliance Bancorp */
+span[data-name="productName"][title*="Western Alliance Bancorp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/western-alliance-bancorp.svg');
+}
+
+/* Arcturus Therapeutics */
+span[data-name="productName"][title*="Arcturus Therapeutics" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/arcturus-therapeutics.svg');
 }
