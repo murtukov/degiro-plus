@@ -1083,3 +1083,8 @@ span[data-name="productName"][title*="Arcturus Therapeutics" i]::before {
 span[data-name="productName"][title*="BTCETC" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/ethetc-etc-physical-ethereum-eur.svg');
 }
+
+/* Immersion Corp */
+span[data-name="productName"][title*="Immersion Corp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/immersion.svg');
+}
