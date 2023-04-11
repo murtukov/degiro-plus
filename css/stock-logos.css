@@ -509,7 +509,7 @@ span[data-name="productName"][title*="National Australia Bank" i]::before {
 }
 
 /* Natwest Group */
-span[data-name="productName"][title*="Natwest Group" i]::before {
+span[data-name="productName"][title*="Natwest Gr" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/natwest-group.svg');
 }
 
@@ -1087,4 +1087,79 @@ span[data-name="productName"][title*="BTCETC" i]::before {
 /* Immersion Corp */
 span[data-name="productName"][title*="Immersion Corp" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/immersion.svg');
+}
+
+/* Hannon Armstrong Sustainable Infrastructure */
+span[data-name="productName"][title*="Hannon Armstrong" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/hannon-armstrong-sustainable-infl.svg');
+}
+
+/* Y-mAbs Therapeutics Inc */
+span[data-name="productName"][title*="Y-mAbs" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/y-mabs-therapeutics.svg');
+}
+
+/* Palantir */
+span[data-name="productName"][title*="Palantir" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/palantir.svg');
+}
+
+/* Enovix */
+span[data-name="productName"][title*="Enovix" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/enovix.svg');
+}
+
+/* Allovir Inc */
+span[data-name="productName"][title*="Allovir" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/allovir.svg');
+}
+
+/* Also Holding */
+span[data-name="productName"][title*="Also Holding" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/also-n.svg');
+}
+
+/* ACI Worldwide */
+span[data-name="productName"][title*="ACI Worldwide" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/aci-worldwide.svg');
+}
+
+/* Biophytis */
+span[data-name="productName"][title*="Biophytis" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/biophytis.svg');
+}
+
+/* BKW AG */
+span[data-name="productName"][title*="BKW AG" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/bkw-n.svg');
+}
+
+/* Brainstrom Cell Therapeutics */
+span[data-name="productName"][title*="Brainstrom Cell Therapeutics" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/brainstrom-cell-therapeutics.svg');
+}
+
+/* Bridgebio Pharma  */
+span[data-name="productName"][title*="Bridgebio Pharma" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/bridgebio-pharma.svg');
+}
+
+/* Evgo Inc  */
+span[data-name="productName"][title*="Evgo Inc" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/evgo.svg');
+}
+
+/* Swedbank */
+span[data-name="productName"][title*="Swedbank" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/swedbank-ab-ser-a.svg');
+}
+
+/* US Energy Corp */
+span[data-name="productName"][title*="US Energy Corp" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/us-energy.svg');
+}
+
+/* Tecnoglass */
+span[data-name="productName"][title*="Tecnoglass" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/tecnoglass.svg');
 }
