@@ -1168,3 +1168,8 @@ span[data-name="productName"][title*="Tecnoglass" i]::before {
 span[data-name="productName"][title*="Torm PLC" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/torm.svg');
 }
+
+/* Axcelis Technologies */
+span[data-name="productName"][title*="Axcelis" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/axcelis-technologies.svg');
+}
