@@ -58,6 +58,27 @@ window.addEventListener('hashchange', () => {
 // }
 
 function createWidget() {
+  // new TradingView.widget(
+  //   {
+  //     "autosize": true,
+  //     "symbol": `${getOverviewExchange()}:${getOverviewTicker()}`,
+  //     "interval": "1",
+  //     "range": "D",
+  //     "timezone": "Etc/UTC",
+  //     "theme": "dark",
+  //     "style": "3",
+  //     "locale": "en",
+  //     "toolbar_bg": "#f1f3f6",
+  //     "enable_publishing": false,
+  //     "hide_top_toolbar": true,
+  //     "hidevolume": true,
+  //     "withdateranges": true,
+  //     "allow_symbol_change": false,
+  //     "save_image": false,
+  //     "container_id": "tvContainer"
+  //   }
+  // );
+
     new TradingView.MediumWidget(
       {
         symbols: [
