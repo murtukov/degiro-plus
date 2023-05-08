@@ -1173,3 +1173,8 @@ span[data-name="productName"][title*="Torm PLC" i]::before {
 span[data-name="productName"][title*="Axcelis" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/axcelis-technologies.svg');
 }
+
+/* Opera Limited */
+span[data-name="productName"][title*="Opera Ltd" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/opera-limited.svg');
+}
