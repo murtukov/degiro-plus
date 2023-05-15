@@ -1181,5 +1181,5 @@ span[data-name="productName"][title*="Opera Ltd" i]::before {
 
 /* Corporacion America Airports SA */
 span[data-name="productName"][title*="Corporacion America Airports" i]::before {
-    background-image: url('https://s3-symbol-logo.tradingview.com/opera-limited.svg');
+    background-image: url('https://s3-symbol-logo.tradingview.com/corporacion-america.svg');
 }
