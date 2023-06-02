@@ -1183,3 +1183,18 @@ span[data-name="productName"][title*="Opera Ltd" i]::before {
 span[data-name="productName"][title*="Corporacion America Airports" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/corporacion-america.svg');
 }
+
+/* Uber Technologies */
+span[data-name="productName"][title*="Uber Technologies" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/uber.svg');
+}
+
+/* Marvell Technology */
+span[data-name="productName"][title*="Marvell Technology" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/marvell-tech.svg');
+}
+
+/* Arcos Dorados */
+span[data-name="productName"][title*="Arcos Dorados" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/arcos-dorados.svg');
+}
