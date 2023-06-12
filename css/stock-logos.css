@@ -1198,3 +1198,8 @@ span[data-name="productName"][title*="Marvell Technology" i]::before {
 span[data-name="productName"][title*="Arcos Dorados" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/arcos-dorados.svg');
 }
+
+/* American Superconductor */
+span[data-name="productName"][title*="American Superconductor" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/american-superconductor-corporation.svg');
+}
