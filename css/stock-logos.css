@@ -1203,3 +1203,8 @@ span[data-name="productName"][title*="Arcos Dorados" i]::before {
 span[data-name="productName"][title*="American Superconductor" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/american-superconductor-corporation.svg');
 }
+
+/* HSBC Holdings PLC */
+span[data-name="productName"][title*="HSBC" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/hsbc.svg');
+}
