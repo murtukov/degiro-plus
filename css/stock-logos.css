@@ -1208,3 +1208,8 @@ span[data-name="productName"][title*="American Superconductor" i]::before {
 span[data-name="productName"][title*="HSBC" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/hsbc.svg');
 }
+
+/* Powell Industries */
+span[data-name="productName"][title*="Powell Industries" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/powell-industries.svg');
+}
