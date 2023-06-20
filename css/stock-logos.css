@@ -1213,3 +1213,8 @@ span[data-name="productName"][title*="HSBC" i]::before {
 span[data-name="productName"][title*="Powell Industries" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/powell-industries.svg');
 }
+
+/* Leo Lithium */
+span[data-name="productName"][title*="Leo Lithium" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/leo-lithium-ltd.svg');
+}
