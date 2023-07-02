@@ -1,11 +1,54 @@
-// ---------------------
+const observer = new MutationObserver(mutations => {
+  for (const mutation of mutations) {
+    if (mutation.target.tagName === 'HEADER') {
+      appendTradingViewTab(mutation.target);
+      break;
+    }
+  }
+});
 
-// Include TradingView script
-// const script = document.createElement('script');
-// script.type = 'text/javascript';
-// script.src = chrome.runtime.getURL('tv.js');
-// document.head.appendChild(script);
+observer.observe(document, {
+  subtree: true,
+  attributes: true
+});
 
+function appendTradingViewTab(header) {
+  const tabPanel = header.querySelector('[role="tabpanel"]');
+
+  if (tabPanel) {
+    if (tabPanel.querySelector('#trading-view-tab')) {
+      return;
+    }
+
+    const newTab = tabPanel.lastChild.cloneNode(true);
+    newTab.removeAttribute('href');
+    newTab.textContent = 'Trading View'
+    newTab.setAttribute('id', 'trading-view-tab');
+    tabPanel.appendChild(newTab);
+
+    newTab.onclick = () => {
+      const contentSection = document.querySelector('[data-name="productDetails"]').querySelector('section');
+      contentSection.firstChild.classList.add('hidden');
+      const div = document.createElement('div');
+      div.setAttribute('id', 'trading-view-full-chart');
+      contentSection.appendChild(div);
+      createFullWidget();
+    }
+
+    for (let tab of tabPanel.children) {
+      tab.addEventListener('click', (e) => {
+        if (e.currentTarget.getAttribute('id')) {
+          return;
+        }
+
+        const contentSection = document.querySelector('[data-name="productDetails"]').querySelector('section');
+        contentSection.firstChild.classList.remove('hidden');
+      });
+    }
+  }
+}
+
+// window.addEventListener('load', () => console.log('loaded...'));
 
 window.addEventListener('hashchange', () => {
   if (window.location.hash.includes('overview')) {
@@ -17,6 +60,7 @@ window.addEventListener('hashchange', () => {
 
       const button = document.createElement('button');
       button.innerText = 'TradingView';
+      button.classList.add('tv-switch-chart');
 
       const highcharts = section.querySelector('section');
       highcharts.setAttribute('id', 'highcharts');
@@ -31,7 +75,7 @@ window.addEventListener('hashchange', () => {
       `;
 
       highcharts.appendChild(tvContainer);
-      createWidget();
+      createMediumWidget();
 
       button.addEventListener('click', () => {
         tvContainer.style.display = 'block';
@@ -45,40 +89,7 @@ window.addEventListener('hashchange', () => {
   }
 });
 
-// function insertTradingViewTab() {
-//   const panel = document.querySelector('[role="tabpanel"]');
-//
-//   if (!panel.querySelector('#trading-view-tab')) {
-//     const a = panel.lastChild.cloneNode(true);
-//     a.setAttribute('id', 'trading-view-tab');
-//     a.setAttribute('href', window.location.hash + '_arbuz');
-//     a.innerText = "Trading View";
-//     panel.appendChild(a);
-//   }
-// }
-
-function createWidget() {
-  // new TradingView.widget(
-  //   {
-  //     "autosize": true,
-  //     "symbol": `${getOverviewExchange()}:${getOverviewTicker()}`,
-  //     "interval": "1",
-  //     "range": "D",
-  //     "timezone": "Etc/UTC",
-  //     "theme": "dark",
-  //     "style": "3",
-  //     "locale": "en",
-  //     "toolbar_bg": "#f1f3f6",
-  //     "enable_publishing": false,
-  //     "hide_top_toolbar": true,
-  //     "hidevolume": true,
-  //     "withdateranges": true,
-  //     "allow_symbol_change": false,
-  //     "save_image": false,
-  //     "container_id": "tvContainer"
-  //   }
-  // );
-
+function createMediumWidget() {
     new TradingView.MediumWidget(
       {
         symbols: [
@@ -109,6 +120,29 @@ function createWidget() {
         container_id: "tvContainer"
       },
     );
+}
+
+function createFullWidget() {
+  return new TradingView.widget(
+    {
+      "autosize": true,
+      "symbol": `${getOverviewExchange()}:${getOverviewTicker()}`,
+      "interval": "1",
+      "range": "D",
+      "timezone": "Etc/UTC",
+      "theme": "dark",
+      "style": "3",
+      "locale": "en",
+      "toolbar_bg": "#f1f3f6",
+      "enable_publishing": false,
+      "hide_top_toolbar": false,
+      "hidevolume": false,
+      "withdateranges": true,
+      "allow_symbol_change": false,
+      "save_image": false,
+      "container_id": 'trading-view-full-chart'
+    }
+  );
 }
 
 function getOverviewExchange() {

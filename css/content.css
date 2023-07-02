@@ -134,3 +134,29 @@ hr {
     --ink300-color: #1f2532;
 }
 
+.tv-switch-chart {
+    align-self: center;
+    background: var(--accent1-color);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.tv-switch-chart:hover {
+    background: var(--accent2-color);
+}
+
+.hidden {
+    display: none;
+}
+
+#trading-view-full-chart {
+    height: 100%;
+    /*height: calc(100vh - var(--full-header-height) - calc(var(--grid)*41) - 90px);*/
+    max-width: calc(var(--page-max-content-width) + var(--page-padding-horizontal)*2);
+    margin-inline: auto;
+}
+
+[data-name="productDetails"] > div,
+[data-name="productDetails"] section {
+    height: calc(100% - 90px);
+}
