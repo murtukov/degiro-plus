@@ -1233,3 +1233,13 @@ span[data-name="productName"][title*="Rockwell Medical" i]::before {
 span[data-name="productName"][title*="ANI Pharmaceuticals" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/rockwell-medical.svg');
 }
+
+/* Amphastar Pharmaceuticals */
+span[data-name="productName"][title*="Amphastar Pharm" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/amphastar-pharmaceuticals.svg');
+}
+
+/* Limbach Holdings */
+span[data-name="productName"][title*="Limbach" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/limbach.svg');
+}
