@@ -1,9 +1,7 @@
 const observer = new MutationObserver(mutations => {
-  for (const mutation of mutations) {
-    if (mutation.target.tagName === 'HEADER') {
-      appendTradingViewTab(mutation.target);
-      break;
-    }
+  // URL example: #/products/17676929/overview
+  if(/\#\/products\/([0-9]+)(\/([a-z]*))?/g.test(window.location.hash)) {
+    extendProductView(mutations);
   }
 });
 
@@ -11,6 +9,15 @@ observer.observe(document, {
   subtree: true,
   attributes: true
 });
+
+function extendProductView(mutations) {
+  for (const mutation of mutations) {
+    if (mutation.target.tagName === 'HEADER') {
+      appendTradingViewTab(mutation.target);
+      break;
+    }
+  }
+}
 
 function appendTradingViewTab(header) {
   const tabPanel = header.querySelector('[role="tabpanel"]');
