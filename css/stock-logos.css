@@ -1243,3 +1243,8 @@ span[data-name="productName"][title*="Amphastar Pharm" i]::before {
 span[data-name="productName"][title*="Limbach" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/limbach.svg');
 }
+
+/* Global Ship Lease */
+span[data-name="productName"][title*="Global Ship Lease" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/global-ship-lease.svg');
+}
