@@ -1248,3 +1248,18 @@ span[data-name="productName"][title*="Limbach" i]::before {
 span[data-name="productName"][title*="Global Ship Lease" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/global-ship-lease.svg');
 }
+
+/* ON Semiconductor */
+span[data-name="productName"][title*="ON Semiconductor" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/on-semiconductor.svg');
+}
+
+/* Barclays */
+span[data-name="productName"][title*="Barclays" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/barclays.svg');
+}
+
+/* Green Brick Partners */
+span[data-name="productName"][title*="Green Brick Partners" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/green-brick-partners.svg');
+}

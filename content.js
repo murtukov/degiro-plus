@@ -144,6 +144,7 @@ function createFullWidget() {
       "enable_publishing": false,
       "hide_top_toolbar": false,
       "hidevolume": false,
+      "hide_side_toolbar": true,
       "withdateranges": true,
       "allow_symbol_change": false,
       "save_image": false,
