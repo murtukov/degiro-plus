@@ -1263,3 +1263,8 @@ span[data-name="productName"][title*="Barclays" i]::before {
 span[data-name="productName"][title*="Green Brick Partners" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/green-brick-partners.svg');
 }
+
+/* Blue Owl Capital */
+span[data-name="productName"][title*="Blue Owl" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/blue-owl.svg');
+}
