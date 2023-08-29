@@ -845,7 +845,7 @@ span[data-name="productName"][title*="Sachem Capital Corp" i]::before {
 
 /* Arbor Realty Trust */
 span[data-name="productName"][title*="Arbor Realty Trust" i]::before {
-    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/ABR_65x65@2x.png');
+    background-image: url('https://s3-symbol-logo.tradingview.com/arbor-realty-trust.svg');
 }
 
 /* Crown Castle */
@@ -951,7 +951,7 @@ span[data-name="productName"][title*="Bluelinx Holdings" i]::before {
 
 /* Ardmore Shipping Corp */
 span[data-name="productName"][title*="Ardmore Shipping" i]::before {
-    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/ASC_65x65@2x.png');
+    background-image: url('https://s3-symbol-logo.tradingview.com/ardmore-shipping.svg');
 }
 
 /* Arch Resources */
@@ -1297,4 +1297,9 @@ span[data-name="productName"][title*="Sterling Construction" i]::before {
 /* Pinduoduo Inc. */
 span[data-name="productName"][title*="Pinduoduo" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/pinduoduo.svg');
+}
+
+/* Copa Holdings SA */
+span[data-name="productName"][title*="Copa Holdings" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/copa-airlines.svg');
 }
