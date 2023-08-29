@@ -1268,3 +1268,33 @@ span[data-name="productName"][title*="Green Brick Partners" i]::before {
 span[data-name="productName"][title*="Blue Owl" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/blue-owl.svg');
 }
+
+/* Motorola Solutions */
+span[data-name="productName"][title*="Motorola" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/motorola-solutions.svg');
+}
+
+/* Baidu Inc. */
+span[data-name="productName"][title*="Baidu" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/baidu.svg');
+}
+
+/* Extreme Networks */
+span[data-name="productName"][title*="Extreme Networks" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/extreme-networks.svg');
+}
+
+/* Sterling Infrastructure */
+span[data-name="productName"][title*="Sterling Infrastructure" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/sterling-construction.svg');
+}
+
+/* Sterling Construction */
+span[data-name="productName"][title*="Sterling Construction" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/sterling-construction.svg');
+}
+
+/* Pinduoduo Inc. */
+span[data-name="productName"][title*="Pinduoduo" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/pinduoduo.svg');
+}
