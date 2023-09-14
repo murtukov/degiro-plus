@@ -936,7 +936,7 @@ span[data-name="productName"][title*="M/I Homes" i]::before {
 
 /* HF Sinclair */
 span[data-name="productName"][title*="HF Sinclair" i]::before {
-    background-image: url('https://d14aey5zg44n7g.cloudfront.net/stash_card_icons/65x65/DINO_65x65@2x.png');
+    background-image: url('https://s3-symbol-logo.tradingview.com/hf-sinclair.svg');
 }
 
 /* Chevron Corp */
@@ -1302,4 +1302,9 @@ span[data-name="productName"][title*="Pinduoduo" i]::before {
 /* Copa Holdings SA */
 span[data-name="productName"][title*="Copa Holdings" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/copa-airlines.svg');
+}
+
+/* Barings BDC */
+span[data-name="productName"][title*="Barings BDC" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/barings-bdc.svg');
 }
