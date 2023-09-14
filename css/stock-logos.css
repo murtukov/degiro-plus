@@ -1313,3 +1313,8 @@ span[data-name="productName"][title*="Barings BDC" i]::before {
 span[data-name="productName"][title*="Shopify" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/shopify.svg');
 }
+
+/* Adobe Systems */
+span[data-name="productName"][title*="Adobe" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/adobe.svg');
+}
