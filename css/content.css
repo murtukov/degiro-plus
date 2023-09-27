@@ -156,7 +156,7 @@ hr {
     margin-inline: auto;
 }
 
-[data-name="productDetails"] > div,
-[data-name="productDetails"] section {
-    height: calc(100% - 90px);
-}
+/*[data-name="productDetails"] > div,*/
+/*[data-name="productDetails"] section {*/
+/*    height: calc(100% - 90px);*/
+/*}*/
