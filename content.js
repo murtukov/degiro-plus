@@ -1,11 +1,113 @@
 const observer = new MutationObserver(mutations => {
+  // debugger;
   // URL example: #/products/17676929/overview
   if(/\#\/products\/([0-9]+)(\/([a-z]*))?/g.test(window.location.hash)) {
     extendProductView(mutations);
   }
+
+  // URL example: #/portfolio/assets
+  // change the regexp below to match the URL of your portfolio
+  if(window.location.hash.includes('#/portfolio/assets')) {
+    // console.log(mutations);
+    for (const mutation of mutations) {
+      // if (mutation.target.tagName === 'TBODY') {
+      //   // console.log(mutation);
+      //
+      //   mutation.addedNodes.forEach(node => {
+      //     console.log(node);
+      //     // if (node.tagName === 'TR' && node.querySelector('[data-name="symbolIsin"]').innerText.contains('ARCC')) {
+      //     //   console.log(node.querySelector('span[data-name="symbolName"]').innerText);
+      //     // }
+      //   });
+      // }
+
+      if (mutation.target.tagName === 'DIV') {
+        if (mutation.addedNodes.length > 0 && mutation.addedNodes[0].tagName === 'DIV' && mutation.addedNodes[0].querySelector('table')) {
+          mutation.addedNodes[0].querySelectorAll('[data-name="symbolIsin"]').forEach(span => {
+            const row = span.closest('tr');
+            const category = row.querySelector('[data-name="productCategory"]');
+            const exchange = row.querySelector('[data-name="exchangeAbbr"]').innerText;
+            let [symbol, isin] = span.innerText.split('| ');
+
+            symbol = normalizeSymbol(symbol);
+
+            switch (category.innerText) {
+              case 'A':
+              case 'B':
+                category.classList.add('category-a');
+                break;
+              case 'C':
+                category.classList.add('category-c');
+                break;
+              case 'D':
+                category.classList.add('category-d');
+                break;
+            }
+
+            const titleHTML = row.querySelector('[data-name="productName"]');
+
+            let ICONS = [];
+            switch (exchange) {
+              case 'NSY':
+                ICONS = NYSE_ICONS;
+                break;
+              case 'NDQ':
+                ICONS = NASDAQ_ICONS;
+                break;
+              case 'XET':
+                ICONS = XETRA_ICONS;
+                break;
+              case 'TDG':
+              case 'FRA':
+                ICONS = TRADEGATE_ICONS;
+                break;
+              case 'LSE':
+                ICONS = LSE_ICONS;
+                break;
+              case 'TOR':
+                ICONS = TSX_ICONS;
+                break;
+              default:
+                return;
+            }
+
+            if (ICONS[symbol]) {
+              titleHTML.innerHTML = createIcon(ICONS[symbol], titleHTML.innerText);
+            } else {
+              titleHTML.innerHTML = `<span>${symbol[0]}</span>${titleHTML.innerText}`;
+            }
+          })
+        }
+
+        // рабочая схема
+        // if (mutation.target.firstChild.getAttribute('data-name') === 'positions') {
+        //   console.log(mutation);
+        //   console.log(mutation.target.firstChild.querySelector('tbody').children.length);
+        //   // break;
+        // }
+
+        // mutation.addedNodes.forEach(node => {
+        //   console.log(node);
+        //   // if (node.tagName === 'TR' && node.querySelector('[data-name="symbolIsin"]').innerText.contains('ARCC')) {
+        //   //   console.log(node.querySelector('span[data-name="symbolName"]').innerText);
+        //   // }
+        // });
+      }
+    }
+  }
 });
 
+function createIcon(url, title) {
+  return `<img alt="" class="stock-icon" width="30" height="30" src="${iconUrlBase}${url}.svg"/><span>${title}</span>`;
+}
+
+function normalizeSymbol(symbol) {
+  const [normalized] = symbol.trim().split('^');
+  return normalized;
+}
+
 observer.observe(document, {
+  childList: true,
   subtree: true,
   attributes: true
 });
@@ -186,3 +288,9 @@ function getOverviewTicker() {
   const info = document.querySelector('[data-name="productDetails"] [data-name="productBriefInfo"]');
   return info.innerText.split('|')[1].trim();
 }
+
+const baseURL = 'https://s3-symbol-logo.tradingview.com/';
+
+// Create a functional react component with a state
+
+const iconUrlBase = 'https://s3-symbol-logo.tradingview.com/';
