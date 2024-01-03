@@ -11,7 +11,14 @@
     {
       "js": [
         "tv.js",
-        "content.js"
+        "content.js",
+        "icons/nyse_icons.js",
+        "icons/nasdaq_icons.js",
+        "icons/tradegate_icons.js",
+        "icons/xetra_icons.js",
+        "icons/euronext_icons.js",
+        "icons/lse_icons.js",
+        "icons/tsx_icons.js"
       ],
       "css": [
         "css/content.css",
