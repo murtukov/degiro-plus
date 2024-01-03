@@ -1318,3 +1318,25 @@ span[data-name="productName"][title*="Shopify" i]::before {
 span[data-name="productName"][title*="Adobe" i]::before {
     background-image: url('https://s3-symbol-logo.tradingview.com/adobe.svg');
 }
+
+/* AppLovin Corp */
+span[data-name="productName"][title*="AppLovin" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/applovin.svg');
+}
+
+/* Healthpeak Properties */
+span[data-name="productName"][title*="Healthpeak Prop" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/healthpeak-properties.svg');
+}
+
+/* Celestica */
+span[data-name="productName"][title*="Celestica" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/celestica.svg');
+}
+
+/* MercadoLibre */
+span[data-name="productName"][title*="MercadoLibre" i]::before {
+    background-image: url('https://s3-symbol-logo.tradingview.com/mercadolibre.svg');
+}
+
+/* Merge the rules above into a single rule */
