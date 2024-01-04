@@ -7869,6 +7869,7 @@ const TRADEGATE_ICONS = {
   "TRVC": "citigroup",
   "TRY": "barings-bdc",
   "TSI": "tsingtao-brew",
+  "TSFA": "taiwan-semiconductor",
   "TSPA": "telefonica",
   "TSS": "innotec-tss-ag",
   "TSWE": "vaneck",

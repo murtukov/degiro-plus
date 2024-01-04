@@ -18,7 +18,8 @@
         "icons/xetra_icons.js",
         "icons/euronext_icons.js",
         "icons/lse_icons.js",
-        "icons/tsx_icons.js"
+        "icons/tsx_icons.js",
+        "icons/omx_icons.js"
       ],
       "css": [
         "css/content.css",

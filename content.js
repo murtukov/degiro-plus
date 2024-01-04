@@ -67,6 +67,9 @@ const observer = new MutationObserver(mutations => {
               case 'TOR':
                 ICONS = TSX_ICONS;
                 break;
+              case 'OMX':
+                ICONS = OMX_ICONS;
+                break;
               default:
                 return;
             }
