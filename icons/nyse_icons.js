@@ -1176,6 +1176,7 @@ const NYSE_ICONS = {
   "GXO": "gxo",
   "H": "hyatt-hotels",
   "HAE": "haemonetics",
+  "HAFN": "hafnia-limited",
   "HAL": "halliburton",
   "HAYW": "hayward-holdings",
   "HBB": "hamilton-beach-brands-company",

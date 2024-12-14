@@ -1,1 +1,3 @@
-const XETRA_ICONS = {};
+const XETRA_ICONS = {
+  "AMD": "advanced-micro-devices",
+};

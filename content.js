@@ -26,6 +26,11 @@ const observer = new MutationObserver(mutations => {
           mutation.addedNodes[0].querySelectorAll('[data-name="symbolIsin"]').forEach(span => {
             const row = span.closest('tr');
             const category = row.querySelector('[data-name="productCategory"]');
+
+            if (!category) {
+              return;
+            }
+
             const exchange = row.querySelector('[data-name="exchangeAbbr"]').innerText;
             let [symbol, isin] = span.innerText.split('| ');
 

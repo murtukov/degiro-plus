@@ -1,4 +1,5 @@
 const NASDAQ_ICONS = {
+  "TLN": "talen-energy",
   "TSLA": "tesla",
   "AAPL": "apple",
   "NVDA": "nvidia",

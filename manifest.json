@@ -28,6 +28,18 @@
       "matches": [
         "https://trader.degiro.nl/*"
       ]
+    },
+    {
+      "js": [
+        "tradingview-positions.js"
+      ],
+      "run_at": "document_start",
+      "css": [
+        "css/tradingview-positions.css"
+      ],
+      "matches": [
+        "https://www.tradingview.com/chart/*"
+      ]
     }
   ],
   "web_accessible_resources": [
