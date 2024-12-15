@@ -6,24 +6,16 @@ const observer = new MutationObserver((mutationsList, observerInstance) => {
     // Loop through all added nodes in this mutation
     for (const node of mutation.addedNodes) {
       if (node.nodeType === Node.ELEMENT_NODE) {
-        // Check if the added node matches your target criteria
-        // For example, by ID, class, tag name, etc.
-
-        // If node's class contains 'layout__area--bottom'
         if (node.classList.contains('layout__area--bottom')) {
           observerInstance.disconnect(); // Stop observing after finding the target
           observeDOM(node); // Observe the target node for further mutations
           return;
         }
 
-        // Example 1: By ID
         if (node.id === 'bottom-area') {
           bottomArea = node;
           observerInstance.disconnect();
           observeDOM(node); // Observe the target node for further mutations
-          setTimeout(() => {
-            // createPositionsPopup(node);
-          }, 10000);
           return;
         }
 
@@ -108,7 +100,7 @@ function createPositionsPopup(bottomArea) {
   // Construct the Complete HTML for the New Window
   const completeHTML = `
       <!DOCTYPE html>
-      <html class="${sanitizedHtmlClasses}">
+      <html class="${sanitizedHtmlClasses}" lang="en">
       <head>
           <meta charset="UTF-8">
           <title>Moved Element</title>
