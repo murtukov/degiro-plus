@@ -46,6 +46,9 @@ const observer = new MutationObserver((mutationsList, observerInstance) => {
 
           // Add button to the DOM
           brokerBlock.appendChild(button);
+
+          // Stop observer
+          observerInstance.disconnect();
         }
       }
     }
@@ -145,6 +148,25 @@ function createPositionsPopup(bottomArea) {
             .popup-to-new-window {
               display: none !important;
             }
+            
+            [data-label="Symbol"] {
+              .ka-cell-text,
+              [class^="wrapper-"] {
+                width: 100% !important;
+              }
+              
+              [class^="wrapper-"] {
+                align-items: center;
+              }
+            
+              .company-name {
+                flex-grow: 1;
+              }
+              
+              img {
+                border-radius: 4px !important;
+              }
+            }
           </style>
       </head>
       <body></body>
@@ -156,14 +178,29 @@ function createPositionsPopup(bottomArea) {
   newWindow.document.write(completeHTML);
   newWindow.document.close();
 
+  const currentParent = bottomArea.parentNode;
+  currentParent.removeChild(bottomArea);
+
   // Move the Element to the New Window's Body
   newWindow.document.body.appendChild(bottomArea);
 
   // Set attributes observer to scroll positions into view
   const observer = new MutationObserver((mutationsList) => {
     mutationsList.forEach((mutation) => {
-      if (mutation.attributeName === 'data-row-linked' && mutation.target.getAttribute('data-row-linked') === 'true') {
+      if (mutation.type === 'attributes'
+        && mutation.attributeName === 'data-row-linked'
+        && mutation.target.getAttribute('data-row-linked') === 'true'
+      ) {
         mutation.target.scrollIntoView({ behavior: "smooth", block: "center" });
+      } else {
+        for (const node of mutation.addedNodes) {
+          // Update titles
+          if (node.classList.contains('ka-table-wrapper')) {
+            for (const tr of node.querySelector('tbody').children) {
+              extendTitle(tr);
+            }
+          }
+        }
       }
     });
   });
@@ -171,10 +208,25 @@ function createPositionsPopup(bottomArea) {
   // Start observing the positions table
   observer.observe(bottomArea.querySelector('[data-account-manager-page-id="positions"]'), {
     attributes: true,
+    childList: true,
+    characterData: true,
     attributeFilter: ['data-row-linked'],
     subtree: true
   });
 
   // (Optional) Focus on the New Window
   newWindow.focus();
+}
+
+function extendTitle(tr) {
+  const badge = tr.querySelector('[data-tooltip]');
+  const fullTitle = badge.getAttribute('data-tooltip');
+  const span = document.createElement('span');
+  span.classList.add('company-name');
+  span.innerText = removeTickerFromTitle(fullTitle);
+  badge.insertAdjacentElement('beforebegin', span);
+}
+
+function removeTickerFromTitle(title) {
+  return title.split(' - ')[1];
 }
