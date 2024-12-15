@@ -74,7 +74,7 @@ function createPositionsPopup(bottomArea) {
   }
 
   // Close the child when parent unloads
-  window.addEventListener("beforeunload", () => {
+  window.addEventListener('unload', () => {
     if (newWindow && !newWindow.closed) {
       newWindow.close();
     }
@@ -176,13 +176,14 @@ function createPositionsPopup(bottomArea) {
   // Move the Element to the New Window's Body
   newWindow.document.body.appendChild(bottomArea);
 
-  // Set attributes observer to scroll positions into view
+  // Set attributes observer to scroll positions into view & make titles show companies names
   const observer = new MutationObserver((mutationsList) => {
     mutationsList.forEach((mutation) => {
       if (mutation.type === 'attributes'
         && mutation.attributeName === 'data-row-linked'
         && mutation.target.getAttribute('data-row-linked') === 'true'
       ) {
+        // Scroll the element into view
         mutation.target.scrollIntoView({ behavior: "smooth", block: "center" });
       } else {
         for (const node of mutation.addedNodes) {
